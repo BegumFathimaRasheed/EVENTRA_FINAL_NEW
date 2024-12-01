@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("https://static1.squarespace.com/static/57979d96440243b7dd46850b/t/61006f508d229231900574c6/1627418453809/ajp-277.jpg?format=1500w") no-repeat;
+
+}
+
+.container{
+    width: 50%;
+    padding: 20px;
+    background: transparent;
+    border: 3px solid rgba(255, 255, 255);
+    border-radius: 30px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px black;
+    left: 50%;
+    top: 40%;
+}
+
+.container .heading{
+    text-align: center;
+    font-family: 'Pangolin', cursive;
+}
